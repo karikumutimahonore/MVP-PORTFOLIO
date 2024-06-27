@@ -6,8 +6,10 @@ Welcome to my personal portfolio project! This web application serves as a compr
 
 **Key Features**
 **Home Page**: A welcoming landing page that provides an overview of the portfolio and easy navigation to key sections.
-Bio Section: A detailed biography that includes my professional summary, educational background, and key skills.
-Projects Section: A display of my projects, each with a title, description, and a link to more details. This section showcases the variety and depth of my work.
+
+**Bio Section**: A detailed biography that includes my professional summary, educational background, and key skills.
+
+**Projects Section**: A display of my projects, each with a title, description, and a link to more details. This section showcases the variety and depth of my work.
 
 **Skills Section**: A categorized list of my technical skills, complete with proficiency levels, to give a clear picture of my expertise.
 
