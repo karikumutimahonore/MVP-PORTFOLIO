@@ -8,23 +8,34 @@ Welcome to my personal portfolio project! This web application serves as a compr
 **Home Page**: A welcoming landing page that provides an overview of the portfolio and easy navigation to key sections.
 Bio Section: A detailed biography that includes my professional summary, educational background, and key skills.
 Projects Section: A display of my projects, each with a title, description, and a link to more details. This section showcases the variety and depth of my work.
+
 **Skills Section**: A categorized list of my technical skills, complete with proficiency levels, to give a clear picture of my expertise.
-Contact Form: An interactive form that allows visitors to send messages directly to me, facilitating easy communication and potential collaborations.
-Technologies Used
+
+**Contact Form**: An interactive form that allows visitors to send messages directly to me, facilitating easy communication and potential collaborations.
+
+## Technologies
+
 **HTML**: For structuring the content of the web pages.
+
 **CSS**: For styling the web pages and ensuring a visually appealing and responsive design.
+
 **JavaScript**: For adding dynamic interactions and functionality to the web pages.
 Getting Started
-**Prerequisites**
+
+### Prerequisites
+
 To view and edit this portfolio project, you will need:
 
 A web browser (e.g., Chrome, Firefox, Safari)
 A text editor or IDE (e.g., VSCode, Sublime Text)
 Installation
 
-**Usage**
+#### Usage
+
 **View the Portfolio**: Open the index.html file in your web browser to see the portfolio.
+
 **Explore the Sections**: Navigate through the bio, projects, and skills sections to learn more about my background and expertise.
+
 **Contact Me**: Use the contact form to send me a message for inquiries or potential collaborations.
 
 **License**
