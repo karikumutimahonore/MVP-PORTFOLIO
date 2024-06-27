@@ -44,6 +44,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 **Contact**
 If you have any questions or want to connect, feel free to reach out:
 
-Email: <karikumutimahonore778@gmail.com>
+**Email**: <karikumutimahonore778@gmail.com>
+
 **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/honore-karikumutima-504576247/)
 Thank you for visiting my portfolio! Your feedback and suggestions are greatly appreciated. Stay tuned for more updates and enhancements!
