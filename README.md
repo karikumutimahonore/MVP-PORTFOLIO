@@ -1,52 +1,27 @@
-# Portfolio Project README
+# python_projects_grocery_webapp
 
-Personal Portfolio Project
-**Description**
-Welcome to my personal portfolio project! This web application serves as a comprehensive digital showcase of my skills, projects, and professional background. Built using HTML, CSS, and JavaScript, the portfolio is designed to highlight my journey as a software engineer and provide potential employers and collaborators with an in-depth view of my work and capabilities.
+In this python project, we will build a grocery store management application. It will be 3 tier application,
 
-**Key Features**
-**Home Page**: A welcoming landing page that provides an overview of the portfolio and easy navigation to key sections.
+1. Front end: UI is written in HTML/CSS/Javascript/Bootstrap
+2. Backend: Python and Flask
+3. Database: mysql
 
-**Bio Section**: A detailed biography that includes my professional summary, educational background, and key skills.
+## Installation Instructions
 
-**Projects Section**: A display of my projects, each with a title, description, and a link to more details. This section showcases the variety and depth of my work.
+Download mysql for windows: <https://dev.mysql.com/downloads/installer/>
 
-**Skills Section**: A categorized list of my technical skills, complete with proficiency levels, to give a clear picture of my expertise.
+`pip install mysql-connector-python`
 
-**Contact Form**: An interactive form that allows visitors to send messages directly to me, facilitating easy communication and potential collaborations.
+### Exercise
 
-## Technologies
+The grocery management system that we built is functional but after we give it to users for use, we got following feedback. The exercise for you to address this feedback and implement these features in the application,
 
-**HTML**: For structuring the content of the web pages.
+1. **Products Module**: In products page that lists current products, add an edit button next to delete button that allows to edit current product
 
-**CSS**: For styling the web pages and ensuring a visually appealing and responsive design.
+2. **Products Module**: Implement a new form that allows you to add new UOM in the application. For example you want to add **Cubic Meter** as a new UOM as the grocery store decided to start selling **wood** as well. This requies changing backend (python server) and front end (UI) both.
 
-**JavaScript**: For adding dynamic interactions and functionality to the web pages.
-Getting Started
+3. **Orders Module**: When you place an order it doesn't have any validation. For example one can enter an order with empty customer name. You need to add validation for customer name and invalid item name or not specifying a quantity etc. This is only front end UI work.
 
-### Prerequisites
+4. **Orders Module**: In new order page there is a bug. When you manually change total price of an item it doesn't change the grand total. You need to fix this issue.
 
-To view and edit this portfolio project, you will need:
-
-A web browser (e.g., Chrome, Firefox, Safari)
-A text editor or IDE (e.g., VSCode, Sublime Text)
-Installation
-
-#### Usage
-
-**View the Portfolio**: Open the index.html file in your web browser to see the portfolio.
-
-**Explore the Sections**: Navigate through the bio, projects, and skills sections to learn more about my background and expertise.
-
-**Contact Me**: Use the contact form to send me a message for inquiries or potential collaborations.
-
-**License**
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-**Contact**
-If you have any questions or want to connect, feel free to reach out:
-
-**Email**: <karikumutimahonore778@gmail.com>
-
-**LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/honore-karikumutima-504576247/)
-Thank you for visiting my portfolio! Your feedback and suggestions are greatly appreciated. Stay tuned for more updates and enhancements!
+5. **Orders Module**: In the grid where orders are listed, add a view button in the last column. On clicking this button it should show you order details where individual items in that order are listed along with their price/quantity etc.
