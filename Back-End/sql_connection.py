@@ -11,3 +11,4 @@ def get_sql_connection():
     __cnx = mysql.connector.connect(user='root', password='root', database='grocery_store')
 
   return __cnx
+
