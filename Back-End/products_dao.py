@@ -22,7 +22,7 @@ def get_all_products(connection):
 
     return responde
 
-def insert_new_pproduct(connection, product):
+def insert_new_product(connection, product):
     cursor = connection.cursor()
 
 if __name__ == '__main__':
