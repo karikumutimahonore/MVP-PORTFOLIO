@@ -1,5 +1,4 @@
-import mysql.connector
-
+from sql_connection import get_sql_connection
 
 def get_all_products(connection):
     cursor = connection.cursor()
@@ -23,6 +22,9 @@ def get_all_products(connection):
 
     return responde
 
+def insert_new_pproduct(connection, product):
+    cursor = connection.cursor()
+
 if __name__ == '__main__':
-    
+    connection = get_all_products()
     print(get_all_products(connection))
